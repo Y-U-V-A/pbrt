@@ -1,0 +1,11 @@
+CODE_BASE_RULES
+->strictly_follows_(KISS)_keep_it_simple_stupid
+->snake_case
+->macros_in_uppercase
+->c99
+->clang_compiler
+->compiledb_to_auto_generate_compile_commands.json_file_which_is_used_by_clangd_for_intellesense
+->clang_format_for_formatting
+->doxygen_for_html_documentation
+->makefile_for_project_build
+->supports_windows_linux
