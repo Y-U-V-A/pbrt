@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+Language: Cpp              # Enforce C and C++
+IndentWidth: 4             # 4-space indentation
+ColumnLimit: 0             # No line wrapping
+BreakBeforeBraces: Attach  # Braces on same line (K&R style)
+PointerAlignment: Left     # int* x (left-aligned pointers)
+IndentPPDirectives: AfterHash # Preprocessor indentation
+SortIncludes: Never        # Disable include sorting
