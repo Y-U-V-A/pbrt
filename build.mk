@@ -163,6 +163,7 @@ create_dirs:
 clean:
 	$(call REMOVE_DIR,build)
 	$(call REMOVE_DIR,.cache)
+	$(call REMOVE_DIR,.vscode)
 	$(call REMOVE_FILE,compile_commands.json)
 
 info:
