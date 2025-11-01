@@ -8,7 +8,7 @@
 
 #if CONFIG is not defined it will be set to debug
 CONFIG?=debug
-MAIN?=src/main
+MAIN?=main
 
 #(uname -s is used to get the system kernel)
 #(windows does not support uname command so the resulting error is redirected to dump.txt file)
